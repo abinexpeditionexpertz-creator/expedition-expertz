@@ -278,18 +278,19 @@ export default function PackagesGrid() {
                   {pkg.category}
                 </span>
               </div>
-              <div className="pt-4 border-t border-outline-variant/20 flex gap-2">
+              <div className="pt-4 border-t border-outline-variant/20 flex gap-2 items-stretch">
                 <Link
-                  href={pkg.href}
-                  className="flex-grow primary-gradient text-white py-3 rounded-xl font-label-caps text-label-caps hover:shadow-md transition-shadow text-center"
+                  href={`/package/${pkg.slug}`}
+                  className="flex-grow flex items-center justify-center gap-2 bg-gradient-to-r from-[#1a364f] to-[#264d6f] text-white py-3 px-4 rounded-xl font-label-caps text-label-caps text-center transition-all duration-300 hover:from-[#264d6f] hover:to-[#1a364f] hover:shadow-xl hover:-translate-y-0.5"
                 >
+                  <span className="material-symbols-outlined text-base">arrow_forward</span>
                   View Details
                 </Link>
                 <a
                   href="https://wa.me/1234567890"
                   target="_blank"
                   rel="noreferrer"
-                  className="w-12 h-12 flex items-center justify-center rounded-xl bg-[#25D366] text-white hover:opacity-80 transition-opacity"
+                  className="w-12 flex items-center justify-center rounded-xl bg-[#25D366] text-white hover:bg-[#1ebe5d] transition-colors"
                   aria-label="WhatsApp"
                 >
                   <span className="material-symbols-outlined">chat</span>
