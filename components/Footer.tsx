@@ -9,8 +9,8 @@ const exploreLinks = [
   { label: "Expeditions", href: "/packages" },
   { label: "About Us", href: "/about" },
   { label: "Travel Stories", href: "/journal" },
-  { label: "School Programs", href: "/school" },
 ];
+
 
 const destinationLinks = [
   { label: "Himalayan Base", href: "/packages" },

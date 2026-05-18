@@ -9,9 +9,9 @@ const navLinks = [
   { label: 'Packages', href: '/packages' },
   { label: 'Stories', href: '/journal' },
   { label: 'About Us', href: '/about' },
-  { label: 'Schools', href: '/school' },
   { label: 'Contact Us', href: '/contact' },
 ];
+
 
 export default function Navbar() {
   const pathname = usePathname();

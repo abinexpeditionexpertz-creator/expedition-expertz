@@ -18,7 +18,8 @@ const slides = [
     tag: "SCHOOL PROGRAMS",
     heading: "Adventure Awaits Every Student",
     sub: "Curriculum-aligned outdoor programmes that build leadership, resilience, and a lifelong love of nature. Trusted by 50+ schools worldwide.",
-    cta1: { label: "School Programs", href: "/school", icon: "school" },
+    cta1: { label: "Plan School Program", href: "/contact", icon: "school" },
+
     cta2: { label: "View Brochure", href: "/packages", icon: "menu_book" },
   },
   {
