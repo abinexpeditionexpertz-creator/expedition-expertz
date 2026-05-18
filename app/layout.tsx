@@ -38,6 +38,7 @@ export default function RootLayout({
       <body className="bg-surface text-on-surface font-body-md overflow-x-hidden min-h-full flex flex-col relative">
         <Navbar />
         {children}
+        
         <WhatsAppButton />
         <Footer />
       </body>
