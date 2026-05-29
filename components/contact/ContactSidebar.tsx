@@ -16,7 +16,7 @@ export default function ContactSidebar() {
         <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-4">
           <a 
             className="flex-1 flex items-center justify-center gap-2 bg-[#25D366] text-white py-4 px-6 rounded-full font-label-caps text-xs tracking-wider hover:brightness-110 shadow-md hover:shadow-xl transition-all duration-300 transform active:scale-95" 
-            href="https://wa.me/919876543210"
+            href="https://wa.me/919645599533"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -25,7 +25,7 @@ export default function ContactSidebar() {
           </a>
           <a 
             className="flex-1 flex items-center justify-center gap-2 bg-primary text-white py-4 px-6 rounded-full font-label-caps text-xs tracking-wider hover:bg-secondary shadow-md hover:shadow-xl transition-all duration-300 transform active:scale-95" 
-            href="tel:+919876543210"
+            href="tel:+919645599533"
           >
             <span className="material-symbols-outlined text-lg">call</span>
             PHONE SUPPORT
@@ -40,9 +40,11 @@ export default function ContactSidebar() {
               <span className="material-symbols-outlined text-2xl">location_on</span>
             </div>
             <div>
-              <div className="font-h3 text-base font-bold text-primary">Expedition Hub</div>
+              <div className="font-h3 text-base font-bold text-primary">Expedition HQ</div>
               <p className="text-sm text-on-surface-variant leading-relaxed mt-0.5">
-                Sector 5, Salt Lake City, Kolkata, WB 700091, India
+                27/217/b, Event Global 247,<br />
+                Spaces Peters 9 Building, Thodupuzha,<br />
+                Idukki, Kerala - 685584
               </p>
             </div>
           </div>
@@ -55,8 +57,8 @@ export default function ContactSidebar() {
             <div>
               <div className="font-h3 text-base font-bold text-primary">Email Support</div>
               <p className="text-sm text-on-surface-variant leading-relaxed mt-0.5">
-                <a href="mailto:hello@expeditionexpertz.com" className="hover:text-secondary transition-colors block">hello@expeditionexpertz.com</a>
-                <a href="mailto:bookings@expeditionexpertz.com" className="hover:text-secondary transition-colors block">bookings@expeditionexpertz.com</a>
+                <a href="mailto:info@expeditionexpertz.com" className="hover:text-secondary transition-colors block">info@expeditionexpertz.com</a>
+                <a href="mailto:abinexpeditionexpertz@gmail.com" className="hover:text-secondary transition-colors block">abinexpeditionexpertz@gmail.com</a>
               </p>
             </div>
           </div>
@@ -69,9 +71,7 @@ export default function ContactSidebar() {
             <div>
               <div className="font-h3 text-base font-bold text-primary">Direct Lines</div>
               <p className="text-sm text-on-surface-variant leading-relaxed mt-0.5">
-                +91 98765 43210 (Inquiries)
-                <br />
-                +91 87654 32109 (Operations)
+                +91 96455 99533 (Inquiries & Booking)
               </p>
             </div>
           </div>

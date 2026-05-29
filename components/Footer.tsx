@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-
 import Link from "next/link";
+import { FacebookIcon, InstagramIcon, LinkedInIcon, WhatsAppIcon } from "@/components/shared/SocialIcons";
 
 const exploreLinks = [
   { label: "Home", href: "/" },
@@ -62,19 +62,20 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               {[
-                { icon: "public", label: "Website" },
-                { icon: "alternate_email", label: "Email" },
-                { icon: "chat_bubble", label: "Chat" },
-              ].map(({ icon, label }) => (
+                { component: FacebookIcon, label: "Facebook", href: "https://www.facebook.com/share/1BBq1xpXZz/?mibextid=wwXIfr" },
+                { component: InstagramIcon, label: "Instagram", href: "https://www.instagram.com/expeditionexpertz?igsh=N3B3MnpuNXA2dDE5&utm_source=qr" },
+                { component: LinkedInIcon, label: "LinkedIn", href: "https://www.linkedin.com/company/114073946/" },
+                { component: WhatsAppIcon, label: "WhatsApp", href: "https://wa.me/919645599533" },
+              ].map(({ component: IconComponent, label, href }) => (
                 <a
-                  key={icon}
-                  href="#"
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={label}
                   className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center text-white/70 hover:bg-secondary hover:text-white hover:border-secondary transition-all duration-300"
                 >
-                  <span className="material-symbols-outlined text-[1.1rem]">
-                    {icon}
-                  </span>
+                  <IconComponent size={18} />
                 </a>
               ))}
             </div>

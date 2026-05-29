@@ -1,5 +1,6 @@
 'use client';
 import type { Package } from '@/data/packages';
+import { WhatsAppIcon } from '@/components/shared/SocialIcons';
 
 type Props = { pkg: Package };
 
@@ -45,13 +46,13 @@ export default function PackageDetailBooking({ pkg }: Props) {
           {/* CTA buttons */}
           <div className="space-y-3">
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/919645599533"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="w-full flex items-center justify-center gap-2 text-white font-label-caps text-label-caps py-4 rounded-xl transition-all hover:opacity-90 hover:shadow-lg"
               style={{ backgroundColor: '#25D366' }}
             >
-              <span className="material-symbols-outlined">chat_bubble</span>
+              <WhatsAppIcon size={20} />
               Book via WhatsApp
             </a>
             <a

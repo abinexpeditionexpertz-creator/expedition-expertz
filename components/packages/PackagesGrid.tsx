@@ -2,6 +2,7 @@
 import React, { createContext, useContext, useState, useMemo } from 'react';
 import Link from 'next/link';
 import packagesData, { Package } from '@/data/packages';
+import { WhatsAppIcon } from '@/components/shared/SocialIcons';
 
 // ─── Shared Filter State (via Context) ─────────────────────────────────────
 type FilterState = {
@@ -287,13 +288,13 @@ export default function PackagesGrid() {
                   View Details
                 </Link>
                 <a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/919645599533"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="w-12 flex items-center justify-center rounded-xl bg-[#25D366] text-white hover:bg-[#1ebe5d] transition-colors"
                   aria-label="WhatsApp"
                 >
-                  <span className="material-symbols-outlined">chat</span>
+                  <WhatsAppIcon size={20} />
                 </a>
               </div>
             </div>

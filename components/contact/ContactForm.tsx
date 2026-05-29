@@ -100,7 +100,7 @@ export default function ContactForm() {
               value={formData.phone}
               onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
               className="bg-white/90 border-2 border-outline-variant/30 focus:border-secondary focus:ring-4 focus:ring-secondary/15 rounded-xl p-4 font-body-md transition-all outline-none"
-              placeholder="+91 98765 43210"
+              placeholder="+91 96455 99533"
               type="tel"
             />
           </div>
