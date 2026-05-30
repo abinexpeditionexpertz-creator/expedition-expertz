@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FacebookIcon, InstagramIcon, LinkedInIcon, WhatsAppIcon } from "@/components/shared/SocialIcons";
 
 const exploreLinks = [
@@ -52,9 +53,13 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <Link
               href="/"
-              className="inline-block font-h3 text-h3 text-white mb-4 hover:opacity-80 transition-opacity"
+              className="inline-block mb-4 hover:opacity-80 transition-opacity"
             >
-              Expedition Expertz
+              <img
+                src="/full-logo.png"
+                alt="Expedition Expertz"
+                className="h-16 w-auto object-contain scale-150 origin-left ml-4"
+              />
             </Link>
             <p className="font-body-md text-white/65 mb-8 max-w-xs leading-relaxed">
               Elevating the human spirit through the art of curated exploration
