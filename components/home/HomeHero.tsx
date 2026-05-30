@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const slides = [
   {
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDTfC3wjxLUW3WWo25UoBaOqLSE90DeY1i4GkTCUvpDTIDTFsPHfRl98tjkOsqvXYRKfThjb5ApGNF1KSWd6rEBZFT5LUIQJKsbWlH_vHPWMw-9wnIZjyWTjVakO8s3h5-K1mXrXG21J44bwz5vqQH6vphPtPGjEY1i0Ib_1ZUEWfanr-qsnKuJp8d4qEAbwAm8XUQrR_d6g5RkNMXNu79X4Zz7VvFJ8f8b26o5p78KO2yOl6DMvSW170h1W_uxLLPb3D2hIT2Fp5w",
+    img: "/hero1.png",
     alt: "Mountain expedition at golden sunset",
     tag: "CURATED EXPEDITIONS",
     heading: "Learn \u2022 Explore \u2022 Grow",
@@ -13,7 +13,7 @@ const slides = [
     cta2: { label: "Plan Your Journey", href: "/contact", icon: "route" },
   },
   {
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCRb4ssimVGZ3694cOHbYQd01_eAyoN2UDX2IviFCeCJz9kG52aQ0DFzoPsbEDjbgQGvvRSG5zxS5Jx2zoFQOEBrqyZsm7DGJrVEHkBJmK00DZtnRFrMv39DlKNE-D5rMRRW5m17WD9qAvXUJc5xja0mPPlQtIovZZRRgtMCydMklddYPMxCdyz0El2ss0WOCujhl6XZxTjL__1KpV0tgHHOG6wV0Bz79io0Lcc2RrbTh_ytsG9AAXQTTziAjfeDTCUUpmCv3ke13o",
+    img: "/hero2.png",
     alt: "Students trekking through forest",
     tag: "SCHOOL PROGRAMS",
     heading: "Adventure Awaits Every Student",
@@ -23,7 +23,7 @@ const slides = [
     cta2: { label: "View Brochure", href: "/packages", icon: "menu_book" },
   },
   {
-    img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCgtdR0DI3OioSwCRu0FxA_s01Bnb7i5fv8CaiEef1Eo6UuShCjnzqiwWkcCcyxkKal1eg1QYIPOhANC-AxiE0ctdBSD9pe21_T7nKOExG4H6RTwAGNnn9PFZvnM5JjzjWcWQRlYjfKDTPOheM55VeHbJuyUv-egSPOb41-pchu_LJK3RQnvqJELx4eclmlLumFiKno0tQQj7plRYKtkOu7wiA1n7dNJN9Diwf-xB4QH5DKgwzBsexdBq1tdHUmHbKmg6JiiKmQPFo",
+    img: "/hero3.png",
     alt: "Alpine mountain panorama",
     tag: "PREMIUM TREKS",
     heading: "Conquer New Heights",
